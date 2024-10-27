@@ -11,11 +11,11 @@ on:
       KERNEL_SOURCE_BRANCH:
         description: 'Branch'
         required: true
-        default: 'munch-mi'
+        default: 'opkona'
       KERNEL_DEFCONFIG:
         description: 'Defconfig'
         required: true
-        default: 'vendor/munch_defconfig'
+        default: 'vendor/opkona_defconfig'
       TARGET_ARCH:
         description: 'Target ARCH'
         required: true
